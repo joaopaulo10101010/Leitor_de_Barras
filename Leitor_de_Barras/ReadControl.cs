@@ -20,7 +20,7 @@ namespace Leitor_de_Barras
     public class Leitor 
     {
         string formato = "";
-
+  
         public string LerBarra(string caminho_imagem)
         {
             // Garantindo que ele não ira trabalhar com valores nulos ou vazios
@@ -39,21 +39,33 @@ namespace Leitor_de_Barras
             return resultado.Text;
         }
         
-        public Bitmap CriarBarras(string numeros_da_barra)
+        public Bitmap CriarBarras(string numeros_da_barra, string tipo = "CODE_128")
         {
-            BarcodeWriter barcodeWriter = new BarcodeWriter();
+            
+                if (numeros_da_barra == "") { numeros_da_barra = "000000"; }
+                if (tipo == "") { tipo = "CODE_128"; }
 
-            barcodeWriter.Format = BarcodeFormat.CODE_128;
-            Bitmap codigo_de_barras = barcodeWriter.Write(numeros_da_barra);
 
-            formato = Convert.ToString(barcodeWriter.Format);
-            return codigo_de_barras;
+                BarcodeWriter barcodeWriter = new BarcodeWriter();
+
+
+                BarcodeFormat formatu = (BarcodeFormat)Enum.Parse(typeof(BarcodeFormat), tipo);
+
+                barcodeWriter.Format = formatu;
+                Bitmap codigo_de_barras = barcodeWriter.Write(numeros_da_barra);
+
+                formato = Convert.ToString(barcodeWriter.Format);
+                return codigo_de_barras;
+            
+           
+
+
         }
         public string RetornarFormato()
         {
             return formato;
         }
-
+ 
     }
 
     public class Sistema

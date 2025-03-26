@@ -10,10 +10,13 @@ using System.Windows.Forms;
 
 namespace Leitor_de_Barras
 {
+    
     public partial class Leitorinterface : Form
     {
         Leitor leitor = new Leitor();
         Sistema Sistema = new Sistema();
+
+        
         public Leitorinterface()
         {
             InitializeComponent();
@@ -72,6 +75,27 @@ namespace Leitor_de_Barras
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void groupBox2_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tipobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+            imagemsaidacb.Image = leitor.CriarBarras(numerocodigoentrada.Text, Convert.ToString(tipobox.SelectedItem));
         }
     }
 }
