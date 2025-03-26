@@ -1,0 +1,15 @@
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.csproj.AssemblyReference.cache
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.Form1.resources
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.Properties.Resources.resources
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.csproj.GenerateResource.cache
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.csproj.CoreCompileInputs.cache
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\Leitor_de_Barras.exe.config
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\Leitor_de_Barras.exe
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\Leitor_de_Barras.pdb
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\zxing.dll
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\zxing.presentation.dll
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\zxing.xml
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\bin\Debug\zxing.presentation.xml
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_d.F6C3FECF.Up2Date
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.exe
+C:\Users\João\Desktop\Git\Leitor\Leitor_de_Barras\Leitor_de_Barras\obj\Debug\Leitor_de_Barras.pdb
